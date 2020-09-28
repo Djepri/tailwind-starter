@@ -1,0 +1,16 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+a{
+  color: white;
+  padding:9px;
+  border:1px solid blue;
+  background-color: blue;
+  &:hover{
+    color: #ff0000;
+    text-decoration: underline;
+  }
+}
